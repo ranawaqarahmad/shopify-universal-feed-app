@@ -1,0 +1,49 @@
+.v-application {
+  &--wrap {
+    background: #edf0f4;
+  }
+  .v-btn {
+    border-radius: 15px;
+    text-transform: capitalize;
+    font-size: 14px !important;
+  }
+  .v-sheet.v-card {
+    border-radius: 15px;
+    box-shadow: 0px 11px 17px #d3dae270 !important;
+
+    .v-card__text{
+        padding:1.5rem;
+    }
+  }
+
+  .subtitle-sm {
+    letter-spacing: 0px;
+    color: #3c505e;
+    font-size: 12px;
+    margin-bottom: 0;
+    line-height: 1.5;
+    margin-bottom: 0.8rem;
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+
+  .align-items {
+    &-center {
+      align-items: center;
+    }
+  }
+
+  .justify-content {
+    &-between {
+      justify-content: space-between;
+    }
+  }
+
+  .cursor {
+    &-pointer {
+      cursor: pointer;
+    }
+  }
+}
